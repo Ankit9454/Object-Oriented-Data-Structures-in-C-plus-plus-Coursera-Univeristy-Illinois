@@ -8,16 +8,16 @@
 #include <iostream>
 
 #include "BinaryTree.h"
-
+using namespace std;
 int main() {
 
-  std::cout << std::endl << "Instantiating an object... (no output expected)" << std::endl;
+  cout << endl << "Instantiating an object... (no output expected)" << endl;
   BinaryTree<int> t;
 
-  std::cout << "Exiting..." << std::endl;
+  cout << "Exiting..." << endl;
 
-  std::cout << "(This example doesn't have the complete implementation," << std::endl
-    << " so please see the other binary tree example directories for more.)" << std::endl << std::endl;
+  cout << "(This example doesn't have the complete implementation," << endl
+    << " so please see the other binary tree example directories for more.)" << endl << endl;
 
   return 0;
 }
